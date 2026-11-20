@@ -1,0 +1,16 @@
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # El manual usa comillas simples y algunas clases sin const por claridad didáctica.
+    prefer_const_constructors: false
+    prefer_const_literals_to_create_immutables: false

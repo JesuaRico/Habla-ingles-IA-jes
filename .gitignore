@@ -1,0 +1,18 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+*.iml
+.idea/
+.vscode/
+
+# Node (proxy)
+proxy/node_modules/
+
+# Secretos: NUNCA se suben a Git
+.env
+proxy/.env
+*.key
